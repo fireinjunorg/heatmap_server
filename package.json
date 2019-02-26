@@ -1,6 +1,10 @@
 {
   "name": "heatmap_server",
   "version": "1.0.0",
+  "scripts": {
+    "start": "node ./src/server.js",
+    "dev": "nodemon ./src/server.js"
+  },
   "dependencies": {
     "expressjs": "^1.0.1",
     "moment": "^2.24.0"
@@ -8,6 +12,7 @@
   "devDependencies": {
     "eslint": "^5.14.1",
     "eslint-config-airbnb-base": "^13.1.0",
-    "eslint-plugin-import": "^2.16.0"
+    "eslint-plugin-import": "^2.16.0",
+    "nodemon": "^1.18.10"
   }
 }
