@@ -22,3 +22,5 @@ const Goal = {
   count: 2,
   color: 1,
 };
+
+// YTD Contributions
