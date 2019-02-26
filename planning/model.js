@@ -1,3 +1,4 @@
+
 // Color map
 const COLOR_MAP = {
   '#196127': 4,
