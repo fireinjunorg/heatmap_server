@@ -6,8 +6,10 @@
     "dev": "nodemon ./src/server.js"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "expressjs": "^1.0.1",
-    "moment": "^2.24.0"
+    "moment": "^2.24.0",
+    "svg-to-dataurl": "^1.0.0"
   },
   "devDependencies": {
     "eslint": "^5.14.1",
